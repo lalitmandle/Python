@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>video example</title>
+    {% load static %}
+
+</head>
+<body>
+    <video width="320" height="240" controls>
+        <source src = "{% static '/learninglishwithsunder.mp4' %}" type="video/mp4"/>
+    </video>
+    <audio controls>
+        <source src="{static '/horse.mp3' %}" type="audio/mp3" />
+    </audio>
+
+</body>
+</html>
