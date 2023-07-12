@@ -1,0 +1,17 @@
+import math
+# print(dir(math))
+print(math.sqrt(64))
+print(math.sin(100))
+print(math.cos(120))
+print(math.tan(100))
+print(math.factorial(5))
+print(math.pow(2,2))
+
+print(math.ceil(1000.234))
+print(math.ceil(-1000.234))
+print(math.floor(1000.234))
+print(math.floor(-1000.234))
+print(math.fsum([1,2,3,4]))
+print(math.log(3))
+print(math.exp(1))
+print(math.pi)
